@@ -1,0 +1,6 @@
+
+.career-hero {
+  background: linear-gradient(rgba(179, 8, 16, 0.75), rgba(0, 0, 0, 0.7)), url('images/career-bg.jpg') center/cover no-repeat;
+  color: white;
+  padding: 100px 0;
+}

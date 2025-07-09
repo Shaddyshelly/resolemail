@@ -1,0 +1,92 @@
+/* Banner Section */
+#about-banner .banner-img {
+  height: 40vh;
+  object-fit: cover;
+  object-position: center;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Intro Heading */
+.about-intro h2 {
+  font-size: 2.5rem;
+  color: #b30810;
+  letter-spacing: 1px;
+}
+
+.contact-cta-section {
+  background-color: #fbe4e5;
+  border-radius: 1rem;
+  margin-top: 40px;
+}
+
+.contact-cta-section h3 {
+  font-size: 1.75rem;
+}
+
+.contact-cta-section a.btn {
+  border-color: #b30810;
+  color: #b30810;
+  transition: 0.3s ease-in-out;
+}
+
+.contact-cta-section a.btn:hover {
+  background-color: #b30810;
+  color: white;
+}
+
+
+/* Journey Box */
+.journey-box {
+  background-color: #fbe4e5;
+  border-left: 5px solid #b30810;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 20px rgba(179, 8, 16, 0.05);
+}
+
+.journey-box h3 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.journey-box p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .about-intro h2 {
+    font-size: 2rem;
+  }
+  .journey-box h3 {
+    font-size: 1.5rem;
+  }
+}
+
+
+/* call to action ------------------------------------ */
+
+.contact-cta-section {
+  background-color: #fbe4e5;
+  border-radius: 1rem;
+  margin-top: 40px;
+}
+
+.contact-cta-section h3 {
+  font-size: 1.75rem;
+}
+
+.contact-cta-section a.btn {
+  background-color: #b30810;
+  border-color: #b30810;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+.contact-cta-section a.btn:hover {
+  background-color: #b30810;
+  color: white;
+}
